@@ -236,6 +236,7 @@ header nav ul li:first-child {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 10;
 }
 .slidewrapper button.prev {
   left: 0;
