@@ -213,9 +213,12 @@ header nav ul li:first-child {
   overflow: hidden;
 }
 .slidecontainer {
+  width: 300%; /* js 부모 너비파악, 슬라이드 개수 파악, 너비 계산 지정할 예정 */
   display: flex;
+  transition: 0.3s ease-out;
 }
 .slidecontainer li {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
